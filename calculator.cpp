@@ -13,7 +13,7 @@ double add(double a, double b) {
 }
 
 double subtract(double a, double b) {
-    // implement your code
+    return a-b;
 }
 
 double multiply(double a, double b) {
@@ -36,8 +36,10 @@ int main() {
     cout << "Values received: a = " << a << ", b = " << b << endl;
     double result = add(a, b);
     cout << "sum of "<< a << " and " << b  << " is " << result << endl;
+    cout <<"The difference of " <<a <<"and " <<b <<"= " <<subtract(a,b); <<endl;
     cout << "The multiplication of " << a << " and " << b << " is " << multiply(a,b) << endl;
     double div = divide(a,b);
     cout << a << "/" << b << " = " << div << endl;
+
     return 0;
 }
