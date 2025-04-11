@@ -9,7 +9,7 @@ void get_input(double &a, double &b) {
 }
 
 double add(double a, double b) {
-    // implement your code
+    return a+b;
 }
 
 double subtract(double a, double b) {
@@ -24,10 +24,12 @@ double divide(double a, double b) {
 //    implement your code
 }
 
+
 int main() {
     double a, b;
     cout << "Welcome to the Team Calculator!" << endl;
     get_input(a, b);
-    cout << "Values received: a = " << a << ", b = " << b << endl;
+    double result = add(a, b);
+    cout << "sum of "<< a << " and " << b  << " is " << result << endl;
     return 0;
 }
