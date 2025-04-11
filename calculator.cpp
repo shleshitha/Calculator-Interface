@@ -21,7 +21,11 @@ double multiply(double a, double b) {
 }
 
 double divide(double a, double b) {
-//    implement your code
+    if(b == 0) {
+        cout << "Divide by Zero Error." << endl;
+        return 0;
+    }
+    return a/b;
 }
 
 
@@ -33,5 +37,7 @@ int main() {
     double result = add(a, b);
     cout << "sum of "<< a << " and " << b  << " is " << result << endl;
     cout << "The multiplication of " << a << " and " << b << " is " << multiply(a,b) << endl;
+    double div = divide(a,b);
+    cout << a << "/" << b << " = " << div << endl;
     return 0;
 }
