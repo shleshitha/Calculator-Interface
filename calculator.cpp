@@ -29,6 +29,6 @@ int main() {
     cout << "Welcome to the Team Calculator!" << endl;
     get_input(a, b);
     cout << "Values received: a = " << a << ", b = " << b << endl;
-    cout << a << "*" << b << " is " << a*b;
+    cout << "The multiplication of " << a << " and " << b << " is " << a*b;
     return 0;
 }
