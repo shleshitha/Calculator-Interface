@@ -17,7 +17,7 @@ double subtract(double a, double b) {
 }
 
 double multiply(double a, double b) {
-    // implement your code
+    return a*b;
 }
 
 double divide(double a, double b) {
@@ -29,5 +29,6 @@ int main() {
     cout << "Welcome to the Team Calculator!" << endl;
     get_input(a, b);
     cout << "Values received: a = " << a << ", b = " << b << endl;
+    cout << a << "*" << b << " is " << a*b;
     return 0;
 }
