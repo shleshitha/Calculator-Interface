@@ -9,7 +9,7 @@ void get_input(double &a, double &b) {
 }
 
 double add(double a, double b) {
-    // implement your code
+    return a+b;
 }
 
 double subtract(double a, double b) {
