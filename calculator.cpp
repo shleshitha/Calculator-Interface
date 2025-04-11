@@ -9,11 +9,11 @@ void get_input(double &a, double &b) {
 }
 
 double add(double a, double b) {
-    // implement your code
+    //  implement your code
 }
 
 double subtract(double a, double b) {
-    // implement your code
+    return a-b;
 }
 
 double multiply(double a, double b) {
@@ -21,7 +21,7 @@ double multiply(double a, double b) {
 }
 
 double divide(double a, double b) {
-//    implement your code
+    // implement your code
 }
 
 int main() {
@@ -29,5 +29,6 @@ int main() {
     cout << "Welcome to the Team Calculator!" << endl;
     get_input(a, b);
     cout << "Values received: a = " << a << ", b = " << b << endl;
+    cout <<"The difference of " <<a <<"and " <<b <<"= " <<subtract(a,b); <<endl;
     return 0;
 }
